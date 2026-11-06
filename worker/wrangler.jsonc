@@ -1,0 +1,17 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "studiovault-api",
+  "main": "index.js",
+  "compatibility_date": "2026-11-06",
+  "account_id": "7d9748699b29a9a211ab7b1ac45fbc04",
+  "r2_buckets": [
+    {
+      "binding": "BUCKET",
+      "bucket_name": "studiovault-audios"
+    }
+  ],
+  "vars": {
+    "R2_PUBLIC_URL": "https://pub-12f92613d64a4104a74fb7662f0ddb07.r2.dev",
+    "ADMIN_PASSWORD": "ThoriiiStudio2026!"
+  }
+}
