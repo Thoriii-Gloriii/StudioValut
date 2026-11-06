@@ -1,0 +1,1 @@
+import{_ as e,a as t,i as n,p as r,r as i,s as a}from"./index-BMREgprW.js";var o=e();function s(){let{tracks:e,loading:s}=r();return(0,o.jsx)(t,{title:`Library`,subtitle:`Every song uploaded to the Vault.`,children:s?(0,o.jsx)(n,{}):e.length===0?(0,o.jsx)(i,{title:`No songs yet`,body:`Uploaded songs will appear here.`}):(0,o.jsx)(a,{items:e})})}export{s as component};
