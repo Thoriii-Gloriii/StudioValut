@@ -1,20 +1,13 @@
 ﻿{
   "rules": [
     {
-      "allowed": {
-        "origins": [
-          "https://thoriii-gloriii.github.io",
-          "https://studiovaults.netlify.app",
-          "*"
-        ],
-        "methods": [
-          "GET",
-          "HEAD"
-        ],
-        "headers": [
-          "*"
-        ]
-      },
+      "allowedOrigins": [
+        "https://thoriii-gloriii.github.io",
+        "https://studiovaults.netlify.app",
+        "*"
+      ],
+      "allowedMethods": ["GET", "HEAD"],
+      "allowedHeaders": ["*"],
       "maxAgeSeconds": 86400
     }
   ]
